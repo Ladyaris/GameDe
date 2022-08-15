@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GameDe</string>
+    <string name="txt_top_10_games">Top 10 Games</string>
+    <string name="game_name">Game Name</string>
+    <string name="producer">Producer</string>
+    <string name="rating">Rating</string>
+    <string name="thumbnail_image">Thumbnail Image</string>
+    <string name="details">Details</string>
+    <string name="name">Led_Ih</string>
+    <string name="link">https://www.dicoding.com/users/led_ih</string>
+    <string name="profile">Profile</string>
+</resources>

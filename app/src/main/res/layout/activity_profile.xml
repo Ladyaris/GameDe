@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".ui.ProfileActivity"
+    android:paddingTop="50dp"
+    android:background="@drawable/welpeper">
+
+   <ImageView
+       android:id="@+id/iv_banner"
+       android:layout_width="400dp"
+       android:layout_height="200dp"
+       android:src="@drawable/gamingsetup"/>
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/cv_propil"
+       android:layout_width="130dp"
+       android:layout_height="130dp"
+       android:layout_marginStart="25dp"
+       android:layout_marginTop="110dp"
+       android:padding="1dp"
+       android:scaleType="centerCrop"
+       android:cropToPadding="true"/>
+
+   <TextView
+       android:id="@+id/tv_name"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="25dp"
+       android:layout_marginTop="250dp"
+       android:text="@string/name"
+       android:textColor="@color/white"
+       android:textSize="25sp"
+       android:textStyle="bold"/>
+
+   <TextView
+       android:id="@+id/tv_link"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="25dp"
+       android:layout_marginTop="290dp"
+       android:text="@string/link"
+       android:textSize="15sp"
+       android:textColor="@color/white"/>
+
+</RelativeLayout>
